@@ -1,0 +1,418 @@
+.frameChild,
+.trackShipment {
+  position: relative;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.trackShipmentParent {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-200);
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-smi);
+}
+.scanOrType {
+  flex: 1;
+  position: relative;
+}
+.scanOrTypeBarcodeTrackSWrapper {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-200);
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.scanOr,
+.span {
+  font-weight: 600;
+}
+.scanOr {
+  margin-block-start: 0;
+  margin-block-end: 9px;
+}
+.span {
+  font-family: var(--font-inter);
+}
+.loremIpsumDolorSitAmetCo {
+  margin: 0;
+  font-size: var(--font-size-base);
+}
+.scanOrEnterContainer {
+  align-self: stretch;
+  position: relative;
+  white-space: pre-wrap;
+}
+.scanOrEnterTheBarcodeToTWrapper {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-101xl) var(--padding-281xl) var(--padding-xl);
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.scanBarcode {
+  position: relative;
+  font-weight: 500;
+}
+.barcodeScannerIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.scanBarcodeParent {
+  background-color: var(--color-white);
+  width: 154px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.frameGroup {
+  width: 664px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.applyWrapper,
+.refresh {
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  text-align: center;
+}
+.applyWrapper {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  width: 98px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.refresh {
+  position: relative;
+  font-family: var(--font-inter);
+}
+.refreshWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-gray-200);
+  border-radius: var(--br-8xs);
+  width: 98px;
+  height: 30px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.content,
+.frameParent,
+.nextWrapper,
+.refreshWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  gap: var(--gap-3xs);
+}
+.content,
+.nextWrapper {
+  flex-direction: column;
+}
+.content {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-200);
+  padding: 0 var(--padding-51xl) var(--padding-101xl);
+  font-size: var(--font-size-3xs);
+  color: var(--inside-feild-text);
+}
+.nextWrapper {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  width: 98px;
+  height: 30px;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  color: inherit;
+}
+.content1,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameContainer {
+  flex: 1;
+  justify-content: space-between;
+}
+.content1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-top: 2px solid var(--color-gray-500);
+  justify-content: center;
+  padding: var(--padding-9xl) var(--padding-51xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.termsConditions {
+  margin: 0;
+  text-decoration: underline;
+}
+.legalTermsContainer {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.legalTermsConditionsPrivaWrapper {
+  width: 132px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.information {
+  margin: 0;
+}
+.shippingGuideline {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  text-decoration: underline;
+}
+.informationShippingGuidelineContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.informationShippingGuidelineWrapper {
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.frameDiv {
+  width: 320.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.footer,
+.spcsAllRightsReservedWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.spcsAllRightsReservedWrapper {
+  height: 152px;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-black);
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-35xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.shipmentsTrackShipmentMain {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-lightseagreen);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .content1 {
+    height: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .scanOrEnterTheBarcodeToTWrapper {
+    padding-left: var(--padding-81xl);
+    padding-right: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 420px) {
+  .trackShipmentParent {
+    padding-left: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .scanOrEnterTheBarcodeToTWrapper {
+    padding-left: var(--padding-81xl);
+    padding-right: var(--padding-81xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+  }
+  .content,
+  .content1,
+  .frameParent {
+    box-sizing: border-box;
+  }
+  .content {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-11xl);
+  }
+  .content1 {
+    padding-top: var(--padding-9xl);
+  }
+  .footer {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 350px) {
+  .content,
+  .content1,
+  .frameDiv {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .frameDiv {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-51xl);
+  }
+  .spcsAllRightsReservedWrapper {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .applyWrapper:hover,
+  .nextWrapper:hover,
+  .refreshWrapper:hover {
+    background: linear-gradient(#15dae5, #15dae5), #00adb5;
+    transition: 0.3;
+  }
+}
+@media screen and (max-width: 786px) {
+  .frameItem {
+    flex: unset;
+    align-self: stretch;
+  }
+  .scanBarcodeParent {
+    align-self: stretch;
+    width: auto;
+  }
+  .content,
+  .frameGroup {
+    flex-direction: column;
+  }
+  .content {
+    align-items: center;
+    justify-content: center;
+  }
+  .frameContainer {
+    flex: unset;
+    align-self: stretch;
+  }
+  .content1 {
+    align-items: center;
+    justify-content: center;
+  }
+  .content1,
+  .shipmentsTrackShipmentMain {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 584px) {
+  .frameGroup,
+  .scanBarcodeParent {
+    align-self: stretch;
+    width: auto;
+  }
+  .frameGroup {
+    padding-left: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .footer,
+  .frameParent {
+    flex-direction: column;
+  }
+  .footer {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 456px) {
+  .scanOrEnterTheBarcodeToTWrapper {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    flex-direction: column;
+  }
+  .content1 {
+    padding-top: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+}

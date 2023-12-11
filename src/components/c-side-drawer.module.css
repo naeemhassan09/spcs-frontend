@@ -1,0 +1,36 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.openInWindow {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cSideDrawer {
+  background-color: var(--color-gray-400);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-41xl) var(--padding-17xl);
+  box-sizing: border-box;
+  opacity: 0;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.cSideDrawer.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-top;
+}
